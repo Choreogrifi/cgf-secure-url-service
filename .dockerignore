@@ -1,0 +1,31 @@
+# .dockerignore
+
+# VS Code specific files
+.vscode/
+.idea/
+
+# Python specific files and directories
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.env/
+.venv/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.ipynb_checkpoints/
+pip-log.txt
+pip-delete-this-directory.txt
+*.log
+
+# Git specific files (if you're building from a git repo)
+.git/
+.gitignore
+
+# Editor/OS specific files
+.DS_Store
+.terraform/ # If using Terraform
